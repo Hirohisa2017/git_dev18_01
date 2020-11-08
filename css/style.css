@@ -1,0 +1,222 @@
+/* ここから下に記載していく */
+.header{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+ul.header__nav{
+    display: flex;
+}
+
+.header__nav li{ 
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.mainvisual{
+    height: 400px;
+    background: url(../img/mainbg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.mainvisual__title{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.mainvisual__subtitle{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.about__title {
+    font-size: 40px;
+    font-weight: bolder;
+    color: red;
+    text-align: center;
+}
+
+.about__subtitle {
+    text-align: center;
+    margin: revert;
+}
+
+.about__text {
+    text-align: center;
+    margin: revert;
+}
+
+.imgBox{
+    display: flex;
+}
+
+.imgBox p{
+    width: 25%;
+}
+
+.imgBox p img{
+    width:100%;
+
+
+}
+
+
+.course{
+    margine: 50px;
+
+}
+
+.course__title{
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+
+.course__text{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: 1.8;
+    
+}
+
+
+.newslist{
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+    margin: 0-aut;
+    margin: auto;
+
+}
+
+.newslist__item-text {
+    width: 300px;
+}
+
+.newsBox{
+    display: flex;
+
+}
+
+
+.course__text_nouen-img {
+    display: flex;
+}
+
+ul.coures__text_tisiki {
+    display: flex;
+}
+
+.course__text_tasting-img {
+    display: flex;
+}
+
+h2.mainvisual__title {
+    padding-top: 130px;
+    padding-bottom: 20px;
+}
+
+p.mainvisual__subtitle {
+    padding-bottom: 130px;
+}
+
+h3.about__title {
+    padding-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+h3.course__title {
+    padding-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.course__title {
+    font-size: 40px;
+    font-weight: bolder;
+    color: blue;
+    text-align: center;
+}
+
+.course__text {
+    text-align: center;
+    margin: revert;
+}
+
+ul.coures__text_nouen {
+    background-color: lightgreen;
+    border: 10px;
+}
+
+ul.coures__text_tisiki {
+    background-color: lightpink;
+    border: 10px;
+}
+
+h3.news__title {
+    font-size: 40px;
+    font-weight: bolder;
+    color: green;
+    text-align: center;
+}
+
+h3.more:hover {
+    background: #fff;
+    color: #f4b364;
+}
+
+h3.access__title {
+    font-size: 40px;
+    font-weight: bolder;
+    color:pink;
+    text-align: center;
+}
+
+iframe{
+    width: 100%;
+
+}
+
+.access {
+    background-color: lightyellow;
+}
+
+
+footer{
+    background-color: #707070;
+    padding: 15px;
+}
+
+
+ul.header__nav li:hover{
+    background: #fff;
+    color: #f4b364;
+}
+
+
+h3.contact__title {
+    font-size: 40px;
+    font-weight: bolder;
+    color: purple;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* ここから下に記載していく */
